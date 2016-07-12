@@ -13,7 +13,5 @@ try:
 	tn = telnetlib.Telnet(newsserver,119,5)
 	waarde = tn.read_until("\n",3)
 	print "---", waarde.split(',')[0]
-	else:
-		pass
 except:
 	print "Exception. Connection not OK."
