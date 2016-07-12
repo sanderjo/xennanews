@@ -67,4 +67,8 @@ vip19.xennanews.com
 
 Then feed then into a newsserver checker
 
+```
+python tellertje.py | awk '{ print "./newsserver_check.py " $1 }'  | /bin/sh | grep -vi "not OK"  | sed -e 's/200 //g' | sed -e 's/ NNTPSwitch-SVN.*//'  | grep -vi afo013 > xennanews-superclean2.txt
+```
+
 
