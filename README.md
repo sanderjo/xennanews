@@ -1,10 +1,14 @@
 # xennanews
 Newsservers (aka Usenet servers) hosted at Xennanews
 
-Great overview of Newsservers / Usenetserver on https://www.reddit.com/r/usenet/wiki/providers ... except no Xennanews. So here we go.
+# Trigger
+
+There is a great overview of Newsservers / Usenetserver on https://www.reddit.com/r/usenet/wiki/providers ... except no Xennanews. So here we go.
+
+Xennanews is based in Frankfurt, Germany. Xennanews serves Internet Service Providers (ISPs) and other Usenet Providers all across the globe.
 
 
-# trigger
+# First analysis
 
 ```
 $ telnet news.caiway.nl nntp
