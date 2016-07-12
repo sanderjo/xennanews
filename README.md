@@ -1,6 +1,8 @@
 # xennanews
 Newsservers (aka Usenet servers) hosted at Xennanews
 
+Great overview of Newsservers / Usenetserver on https://www.reddit.com/r/usenet/wiki/providers ... except no Xennanews. So here we go.
+
 
 # trigger
 
